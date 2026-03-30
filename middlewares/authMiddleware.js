@@ -4,8 +4,8 @@ const jwt = require("jsonwebtoken")
 require('dotenv').config()
 
 async function authLogin(req,res,next){
-    //Find token
-     const token = req.cookies.token
+    //Find token from cookie or header
+     const token = req.cookies.token || req.headers.authorization?.replace('Bearer ', '');
 
      if(!token){
           return res.status(401).json({message:"Unauthorized"})

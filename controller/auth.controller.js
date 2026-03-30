@@ -35,7 +35,7 @@ async function registerUser(req,res){
         const token = jwt.sign({email:user.email, _id:user._id}, process.env.SECRET_KEY)
         
         res.cookie("token", token)
-        return res.send("User Created successfully")
+        return res.json({message:"User Created successfully", user: user, token: token})
 
         
    
@@ -77,7 +77,7 @@ async function loginUser(req,res){
         //Generate token and set cookie
         const token = jwt.sign({email:user.email, _id:user._id}, process.env.SECRET_KEY)
         res.cookie("token",token)
-        res.json({message:"User Successfully Login",user:user})
+        res.json({message:"User Successfully Login",user:user, token:token})
 
        }catch(err){
         res.status(500).json({message:err.message})
