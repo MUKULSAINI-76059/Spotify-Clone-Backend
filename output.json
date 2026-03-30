@@ -1,0 +1,84 @@
+[
+  {
+    "_id": "69bfdfef130bef85594fe5e1",
+    "username": "Mukul Mittal",
+    "email": "mukul45@gmail.com",
+    "password": "$2b$10$rHpkxJTi7zf4K5q56mEpQuPY/kVCKsXA5m92w5ViqTPen8ZfAxku.",
+    "role": "user",
+    "__v": 0
+  },
+  {
+    "_id": "69c12d895dd2df54ad5940f4",
+    "username": "Mukul Singh",
+    "email": "mukul2545@gmail.com",
+    "password": "$2b$10$uKBYAg1MPP2uux927rLJC.4AzLZI3ucWcFn62Inhgc640P1aXnhCi",
+    "role": "artist",
+    "__v": 0
+  },
+  {
+    "_id": "69c12e7e726ec103d8c805f0",
+    "username": "Mukul Kumar",
+    "email": "mukul25@gmail.com",
+    "password": "$2b$10$7uOOAjbD6fLMnucoA1UXiOpOipwVy.mWBMMda5OK7PbyhiHt7Act6",
+    "role": "artist",
+    "__v": 0
+  },
+  {
+    "_id": "69c1493b077af848934cdf78",
+    "username": "Mukul Sharma",
+    "email": "mukul255@gmail.com",
+    "password": "$2b$10$ad9x3Cj6PnxqQs5xWv6Vwe10r.AT8RQVmW1wdllTipzrGC42nlrne",
+    "role": "user",
+    "__v": 0
+  },
+  {
+    "_id": "69c1a317b9ad36dec1e07094",
+    "username": "Mukul Jangir",
+    "email": "mukul2155@gmail.com",
+    "password": "$2b$10$wa.D.1OdLLBUXYpKRTvncODtJddr.uSs3ts8KL06kcJYjDaqzg0Hm",
+    "role": "artist",
+    "__v": 0
+  },
+  {
+    "_id": "69c28aca9efe41265cb8bdec",
+    "username": "Mukul Ji",
+    "email": "mukul@gmail.com",
+    "password": "$2b$10$8Odf2Guq95MA6K0O4YoSJuDgqxEkhZV7pPnWfTjX8rK/aactI9L7a",
+    "role": "artist",
+    "__v": 0
+  },
+  {
+    "role": "user",
+    "_id": "69c5396e67a16c19ba783039",
+    "email": "mukul76059@gmail.com",
+    "name": "mukul",
+    "password": "$2b$10$vSvo5ykAhKwt2IKzVgBQuuFVCSIfVx8nw4uOAa006REMM18CQTmnK",
+    "createdAt": "2026-03-26T13:49:34.534Z",
+    "updatedAt": "2026-03-26T13:49:34.534Z",
+    "__v": 0
+  },
+  {
+    "_id": "69c6d37f06539956680551e3",
+    "username": "mukul2026",
+    "email": "mukulsaini2026@gmail.com",
+    "password": "$2b$10$MmocVKLNhaBpwUt2rg3/pevHRYOyz.hZZ6pXKQuZX01gSmknPJtTK",
+    "role": "artist",
+    "__v": 0
+  },
+  {
+    "_id": "69c6e03359bbd29c4c053b0f",
+    "username": "parveen",
+    "email": "parveen2026@gmail.com",
+    "password": "$2b$10$zOXoFVC4VTqnB6L0XGemzugoFTPAJffddZPnlkOeM1XVzmPeeezB6",
+    "role": "artist",
+    "__v": 0
+  },
+  {
+    "_id": "69c6e0d159bbd29c4c053b15",
+    "username": "bhavesh",
+    "email": "bhavesh2026@gmail.com",
+    "password": "$2b$10$T9pnJFTQjCXzDFdaGiVare8i7spyZTKIclZlR.90IMb/qqw1MbWDe",
+    "role": "user",
+    "__v": 0
+  }
+]
