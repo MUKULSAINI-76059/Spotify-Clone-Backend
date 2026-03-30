@@ -34,7 +34,7 @@ async function registerUser(req,res){
        //Generate token and set cookie
         const token = jwt.sign({email:user.email, _id:user._id}, process.env.SECRET_KEY)
         
-        res.cookie("token", token)
+        res.cookie("token", token, { httpOnly: false, secure: false, sameSite: 'lax' })
         return res.json({message:"User Created successfully", user: user, token: token})
 
         
@@ -76,7 +76,7 @@ async function loginUser(req,res){
         
         //Generate token and set cookie
         const token = jwt.sign({email:user.email, _id:user._id}, process.env.SECRET_KEY)
-        res.cookie("token",token)
+        res.cookie("token", token, { httpOnly: false, secure: false, sameSite: 'lax' })
         res.json({message:"User Successfully Login",user:user, token:token})
 
        }catch(err){

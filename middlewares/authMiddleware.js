@@ -8,6 +8,7 @@ async function authLogin(req,res,next){
      const token = req.cookies.token || req.headers.authorization?.replace('Bearer ', '');
 
      if(!token){
+          console.log("No token provided")
           return res.status(401).json({message:"Unauthorized"})
       }
 
@@ -18,6 +19,7 @@ async function authLogin(req,res,next){
 
    next()
  }catch(err){
+    console.log("Token verification failed:", err.message)
     return res.status(400).json({message:"Invalid token"})
  }
 }
