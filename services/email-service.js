@@ -89,7 +89,7 @@ Warm regards,
     
     <!-- Header -->
     <tr>
-         <td style="background:linear-gradient(135deg,#6366f1,#8b5cf6);padding:30px;text-align:center;color:#fff;">
+         <td style="background:linear-gradient(135deg, #1DB954, #17a347);padding:30px;text-align:center;color:#fff;">
           <h1 style="margin:0;font-size:24px;">🎉 Welcome to SPOTIFY MUSIC</h1>
           <p style="margin:8px 0 0;font-size:14px;opacity:0.9;">Let’s Get Started!</p>
         </td>
@@ -120,7 +120,7 @@ Warm regards,
         <!-- Button -->
         <div style="text-align:center;margin:30px 0;">
           <a href="https://spotify.com/login" 
-             style="display:inline-block;padding:14px 28px;background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;text-decoration:none;border-radius:8px;font-size:15px;font-weight:bold;">
+             style="display:inline-block;padding:14px 28px;background:linear-gradient(135deg, #1DB954, #17a347);color:#fff;text-decoration:none;border-radius:8px;font-size:15px;font-weight:bold;">
             🚀 Start Listening
           </a>
         </div>
